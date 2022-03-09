@@ -1,2 +1,12 @@
 .venv
+.vscode
+build
+DisasterResponse.egg-info
+dist
+__pycache__
+.ipynb_checkpoints
+-f
+DisasterResponse.log
+setup.py
 *.ipynb
+__pycache__
