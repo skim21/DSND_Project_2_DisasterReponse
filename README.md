@@ -8,8 +8,6 @@
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Go to `app` directory: `cd app`
+2. Run your web app: `python app/run.py`
 
-3. Run your web app: `python run.py`
-
-4. Click the `PREVIEW` button to open the homepage
+3. Open your browser and type `0.0.0.0:3000` in the address bar to open the homepage
