@@ -33,14 +33,12 @@ model = joblib.load("models/classifier.pkl")
 def index():
     
     # extract data needed for visuals
-    # TODO: Below is an example - modify to extract data for your own visuals
     genre_counts = df_genre.groupby('genre').count().id
     genre_names = list(genre_counts.index)
 
     category_names = df.iloc[:,2:].columns
     category_boolean = (df.iloc[:,2:] != 0).sum().values
     # create visuals
-    # TODO: Below is an example - modify to create your own visuals
     graphs = [
         # GRAPH 1
         {
