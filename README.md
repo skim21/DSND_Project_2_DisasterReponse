@@ -43,6 +43,6 @@ git clone https://github.com/skim21/DSND_Project_2_DisasterResponse.git
 ## Screenshot4
 
 This is an example of a message you can type to test Machine Learning model performance.
-Click **Classify Message** and the categories with highlighted will be highlighted in green.
+Click **Classify Message** and the categories predicted will be highlighted in green.
 
 ![Sample Input](screenshots/s4.png)
