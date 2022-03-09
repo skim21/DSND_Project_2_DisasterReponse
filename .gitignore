@@ -10,3 +10,4 @@ DisasterResponse.log
 setup.py
 *.ipynb
 __pycache__
+.DS_Store
